@@ -1,0 +1,18 @@
+Available commands:
+
+help, ?         -- shows this list
+open <name>     -- opens a project");
+backup <name>   -- backs up a project
+openb <name>    -- opens a backup
+cd <dir>        -- switches to a specific folder
+                   note: use UNIX-style folder URIs
+pwd, dir        -- prints the current working directory
+exit, quit      -- exits out of the cli
+
+Examples:
+
+cd ~/Documents/FL\ Projects
+cd D:/Files/FL\ Projects/
+open myProject
+backup myProject 1
+openb myProject 1
